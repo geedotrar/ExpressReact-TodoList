@@ -7,8 +7,5 @@ const pool = new Pool({
   port: 5432,
   database: "postgres",
 });
-// const pool = new Pool({
-//   connectionString: process.env.POSTGRES_URL + "?sslmode=require",
-// });
 
 module.exports = pool;
